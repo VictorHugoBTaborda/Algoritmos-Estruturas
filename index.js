@@ -9,4 +9,4 @@ for (let atual = 0; atual < livros.length; atual++) {
       }
 }
 
-console.log('O livro mais barato custa ${precosLivros[maisBarato]')
+console.log('O livro mais barato custa ${livros[maisBarato].preco} e o título é ${livro[mais].titulo}')
