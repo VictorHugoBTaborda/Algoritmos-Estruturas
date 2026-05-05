@@ -1,10 +1,10 @@
 const Livros = require('./listaLivros');
 
 function menorValor(arrProdutos, posicaoInicial){
-      let maisBarato = 0;
+      let maisBarato = posicaoInicial;
 
 for (let atual = 0; atual < arrProdutos.length; atual++) {
-      if(arrProdutos[atual].preco < arrProdutos[maisBarato]){
+      if(arrProdutos[atual].preco < arrProdutos[maisBarato].preco){
       maisBarato = atual
 
       }
